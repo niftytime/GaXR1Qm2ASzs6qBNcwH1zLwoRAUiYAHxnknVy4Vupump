@@ -48,15 +48,15 @@ The `LaMiGra` must point to a file with the following format:
 Where `GaXR1Qm2ASzs6qBNcwH1zLwoRAUiYAHxnknVy4Vupump.png
 ` is the image url.
 
-An example of the `TOKEN_URI`: https://token-creator-lac.vercel.app/token_metadata.json
+An example of the `GaXR1Qm2ASzs6qBNcwH1zLwoRAUiYAHxnknVy4Vupump`: https://token-creator-lac.vercel.app/token_metadata.json
 
 Which resolves to:
 
 ```json
 {
-  "name": "A test token",
-  "symbol": "TEST",
-  "description": "Fully for testing purposes only",
+  "name": "LaMiGra,
+  "symbol": "$RUN",
+  "description": "Fully for testing purposes only:La miGra Coin – The Only Coin You'll Want to $Run From! 🚔💨The coin that’s migrating straight to your wallet! 🚀$RUN is the coin that moves faster than your cousin when ICE shows up at the cookout",
   "image": "https://token-creator-lac.vercel.app/token_image.png"
 }
 ```
@@ -132,37 +132,6 @@ export const Icon = (props: { mint: string }) => {
 
 ```
 
-{
-  "name": "LaMiGra",
-  "symbol": "$RUN",
-  "description": "La miGra Coin – The Only Coin You’ll Want to $Run From! 🚔🪪 The coin that’s migrating straight to your wallet! $RUN is the coin that moves faster than your cousin when ICE shows up at the cookout.",
-  "uri": "https://raw.githubusercontent.com/niftytime/token-list/main/assets/mainnet/GaXR1Qm2ASzs6qBNcwH1zLwoRAUiYAHxnknVy4Vupump.png",
-  "image": "https://raw.githubusercontent.com/niftytime/token-list/main/assets/mainnet/GaXR1Qm2ASzs6qBNcwH1zLwoRAUiYAHxnknVy4Vupump.png",
-  "sellerFeeBasisPoints": 0,
-  "creators": [
-    {
-      "address": "ICEY",
-      "verified": true,
-      "share": 100
-    }
-  ],
-  "collection": "migras",
-  "uses": null,
-  "homepage": "https://github.com/niftytime/token-list",
-  "tags": ["meme", "community"],
-  "additionalInfo": {
-    "tokenAddress": "GaXR1Qm2ASzs6qBNcwH1zLwoRAUiYAHxnknVy4Vupump",
-    "logo": "https://raw.githubusercontent.com/niftytime/token-list/main/assets/mainnet/GaXR1Qm2ASzs6qBNcwH1zLwoRAUiYAHxnknVy4Vupump.png",
-    "examples": [
-      {
-        "name": "LaMiGra",
-        "symbol": "$RUN",
-        "description": "La miGra Coin – The Only Coin You’ll Want to $Run From!",
-        "image": "https://raw.githubusercontent.com/niftytime/token-list/main/assets/mainnet/GaXR1Qm2ASzs6qBNcwH1zLwoRAUiYAHxnknVy4Vupump.png"
-      }
-    ]
-  }
-}
 
 # Disclaimer
 
@@ -189,7 +158,8 @@ reader is or is working on behalf of a Specially Designated National
 prohibitions.
 
 The reader should be aware that U.S. export control and sanctions laws
-prohibit U.S. persons (and other persons that are subject to such laws)
+prohibit U.S. persons (and other persons that are subject to such laws)![GaXR1Qm2ASzs6qBNcwH1zLwoRAUiYAHxnknVy4Vupump - Copy](https://github.com/user-attachments/assets/f047c4af-aeac-4483-b483-d30c21f9f81d)
+
 from transacting with persons in certain countries and territories or
 that are on the SDN list. As a project based primarily on open-source
 software, it is possible that such sanctioned persons may nevertheless
