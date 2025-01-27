@@ -22,28 +22,31 @@ The token metadata for Metaplex Metadata Schema is in the following format:
 
 ```json
 {
-  "name": "TOKEN_NAME", 
-  "symbol": "TOKEN_SYMBOL",
-  "uri": "TOKEN_URI",
+  "name": "LaMiGra", 
+  "symbol": "$RUN",
+ "description": "La miGra Coin – The Only Coin You'll Want to $Run From! 🚔💨The coin that’s migrating straight to your wallet! 🚀$RUN is the coin that moves faster than your cousin when ICE shows up at the cookout.",
+  "uri": "https://raw.githubusercontent.com/niftytime/token-list/main/assets/mainnet/GaXR1Qm2ASzs6qBNcwH1zLwoRAUiYAHxnknVy4Vupump.png",
   "sellerFeeBasisPoints": 0,
-  "creators": null,
-  "collection": null,
+  "creators": ICEY,
+  "collection": migras,
   "uses": null
 }
 ```
 
-The `TOKEN_URI` must point to a file with the following format:
+The `LaMiGra` must point to a file with the following format:
 
 ```json
 {
-  "name": "TOKEN_NAME",
-  "symbol": "TOKEN_SYMBOL",
-  "description": "TOKEN_DESC",
-  "image": "TOKEN_IMAGE_URL"
+  "name": "LaMiGra",
+  "symbol": "$RUN",
+  "description": "La miGra Coin – The Only Coin You'll Want to $Run From! 🚔💨The coin that’s migrating straight to your wallet! 🚀$RUN is the coin that moves faster than your cousin when ICE shows up at the cookout.",
+  "image": "GaXR1Qm2ASzs6qBNcwH1zLwoRAUiYAHxnknVy4Vupump.png
+"
 }
 ```
 
-Where `TOKEN_IMAGE_URL` is the image url.
+Where `GaXR1Qm2ASzs6qBNcwH1zLwoRAUiYAHxnknVy4Vupump.png
+` is the image url.
 
 An example of the `TOKEN_URI`: https://token-creator-lac.vercel.app/token_metadata.json
 
@@ -128,6 +131,38 @@ export const Icon = (props: { mint: string }) => {
   return (<img src={token.logoURI} />);
 
 ```
+
+{
+  "name": "LaMiGra",
+  "symbol": "$RUN",
+  "description": "La miGra Coin – The Only Coin You’ll Want to $Run From! 🚔🪪 The coin that’s migrating straight to your wallet! $RUN is the coin that moves faster than your cousin when ICE shows up at the cookout.",
+  "uri": "https://raw.githubusercontent.com/niftytime/token-list/main/assets/mainnet/GaXR1Qm2ASzs6qBNcwH1zLwoRAUiYAHxnknVy4Vupump.png",
+  "image": "https://raw.githubusercontent.com/niftytime/token-list/main/assets/mainnet/GaXR1Qm2ASzs6qBNcwH1zLwoRAUiYAHxnknVy4Vupump.png",
+  "sellerFeeBasisPoints": 0,
+  "creators": [
+    {
+      "address": "ICEY",
+      "verified": true,
+      "share": 100
+    }
+  ],
+  "collection": "migras",
+  "uses": null,
+  "homepage": "https://github.com/niftytime/token-list",
+  "tags": ["meme", "community"],
+  "additionalInfo": {
+    "tokenAddress": "GaXR1Qm2ASzs6qBNcwH1zLwoRAUiYAHxnknVy4Vupump",
+    "logo": "https://raw.githubusercontent.com/niftytime/token-list/main/assets/mainnet/GaXR1Qm2ASzs6qBNcwH1zLwoRAUiYAHxnknVy4Vupump.png",
+    "examples": [
+      {
+        "name": "LaMiGra",
+        "symbol": "$RUN",
+        "description": "La miGra Coin – The Only Coin You’ll Want to $Run From!",
+        "image": "https://raw.githubusercontent.com/niftytime/token-list/main/assets/mainnet/GaXR1Qm2ASzs6qBNcwH1zLwoRAUiYAHxnknVy4Vupump.png"
+      }
+    ]
+  }
+}
 
 # Disclaimer
 
